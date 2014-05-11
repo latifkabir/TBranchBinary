@@ -28,8 +28,11 @@ libN3HE.so is the binary file that will serve as your library.
 * To load the library source the bin/thisN3HE.sh file before doing analysis (I.E. run ". /path/to/N3HE/bin/thisN3HE.sh").  It's convenient to put this source command into your ~/.bash_profile or ~/.bashrc file:
 
 > ........................................................
+
 > if [ -f /path/to/N3HE/bin/thisN3HE.sh ]; then
+
 >        . /path/to/N3HE/bin/thisN3HE.sh
+
 > fi
 > .......................................................
 
