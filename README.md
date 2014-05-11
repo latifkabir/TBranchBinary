@@ -1,5 +1,4 @@
-TBranchBinary
-==============
+#TBranchBinary#
 
 1.TBranchBinary, a new class developed by Christopher Crawford (now prof of Physics at Univ of Kentucky)
 
@@ -16,8 +15,7 @@ The included files are:
  * In Sample_output: Some output files how you will see if you can run the macro (data_plot_v2.C) successfully.
 
 
-3.Steps to be followed:
-------------------------
+3.Steps to be followed
 * To Compile:
 From terminal , go to the extracted TBranchBinary Library directory where you have "makefile"
 Then from terminal type"make"
