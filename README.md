@@ -44,7 +44,7 @@ if [ -f /path/to/N3HE/bin/thisN3HE.sh ]; then
 
 In that case it would not matter which directory you are doing your analysis, You are free do the analysis from any directory as the library is loaded in the terminal itself.
 
-* From a new terminal go to the analysis directory("TBranchBinary_ver_2/Analysis").and issue the command:
+* From a new terminal go to the analysis directory("TBranchBinary/Analysis").and issue the command:
  `root data_plot.C  -l`
 
 * 3 windows will pop-up giving the plot of the data in 000 file.
