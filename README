@@ -1,8 +1,11 @@
-1.TBranchBinary, created by Christopher Crawford (now prof of Physics at Univ of Kentucky)
+TBranchBinary
+==============
 
-   - Allows one to interpret binary files as ntuples without actually reading them into an ntuple.
-   - Gives access to all features of TTree.
-   - Access to any ROOT classes.
+1.TBranchBinary, a new class developed by Christopher Crawford (now prof of Physics at Univ of Kentucky)
+
+   *Allows one to interpret binary files as ntuples without actually reading them into an ntuple.
+   *Gives access to all features of TTree.
+   *Access to any ROOT classes.
 
 
 2.TBranchBinary directory contains TBranchBinary library with make file.
