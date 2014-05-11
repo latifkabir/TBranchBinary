@@ -14,9 +14,9 @@ What's included
 This directory directory contains TBranchBinary library with make file, sample data file and sample analysis.
 The included files are:
  * In Library: The TBranchBinary library with make file.
- * In Analysis: A macro to plot the data (data_plot_v2.C)
+ * In Analysis: A macro to plot the data (data_plot.C)
  * In Data: A small data file produced by our ADC (with sinusoidal(1volt, 60 Hz) applied on channel-1, ADC running at 10KHz sample rate ) (file name "000")
- * In Sample_output: Some output files how you will see if you can run the macro (data_plot_v2.C) successfully.
+ * In Sample_output: Some output files how you will see if you can run the macro (data_plot.C) successfully.
 
 Prerequisite
 ------------
@@ -45,7 +45,7 @@ if [ -f /path/to/N3HE/bin/thisN3HE.sh ]; then
 In that case it would not matter which directory you are doing your analysis, You are free do the analysis from any directory as the library is loaded in the terminal itself.
 
 * From a new terminal go to the analysis directory("TBranchBinary_ver_2/Analysis").and issue the command:
- `root data_plot_2.C  -l`
+ `root data_plot.C  -l`
 
 * 3 windows will pop-up giving the plot of the data in 000 file.
 - One windows giving histogram plotted manually (i.e. filling histogram for each data point)

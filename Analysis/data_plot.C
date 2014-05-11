@@ -1,4 +1,4 @@
-void data_plot_v2(){
+void data_plot(){
 
      gSystem->Load("libTree");
      gSystem->Load("libHist");
