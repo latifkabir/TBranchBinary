@@ -1,9 +1,6 @@
 TBranchBinary
 =============
 
-TBranchBinary
--------------
-
 TBranchBinary is a new class developed by Christopher Crawford (now prof of Physics at Univ of Kentucky)
 
    * Allows one to interpret binary files as ntuples without actually reading them into an ntuple.
