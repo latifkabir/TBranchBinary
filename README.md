@@ -1,4 +1,4 @@
-#TBranchBinary#
+#TBranchBinary
 
 1.TBranchBinary, a new class developed by Christopher Crawford (now prof of Physics at Univ of Kentucky)
 
@@ -26,10 +26,13 @@ libN3HE.so is the binary file that will serve as your library.
 * To load the library source the bin/thisN3HE.sh file before doing analysis (I.E. run ". /path/to/N3HE/bin/thisN3HE.sh").  It's convenient to put this source command into your ~/.bash_profile or ~/.bashrc file:
 
  
-'if [ -f /path/to/N3HE/bin/thisN3HE.sh ]; then
-        . /path/to/N3HE/bin/thisN3HE.sh
-fi'
+<code>
+if [ -f /path/to/N3HE/bin/thisN3HE.sh ]; then
 
+        . /path/to/N3HE/bin/thisN3HE.sh
+        
+fi
+</code>
 In that case it would not matter which directory you are doing your analysis, You are free do the analysis from any directory as the library is loaded in the terminal itself.
 
 * From a new terminal go to the analysis directory("TBranchBinary_ver_2/Analysis").and issue the command:
