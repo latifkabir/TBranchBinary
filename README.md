@@ -25,14 +25,10 @@ libN3HE.so is the binary file that will serve as your library.
 
 * To load the library source the bin/thisN3HE.sh file before doing analysis (I.E. run ". /path/to/N3HE/bin/thisN3HE.sh").  It's convenient to put this source command into your ~/.bash_profile or ~/.bashrc file:
 
-> ........................................................
-
-> if [ -f /path/to/N3HE/bin/thisN3HE.sh ]; then
-
->        . /path/to/N3HE/bin/thisN3HE.sh
-
-> fi
-> .......................................................
+ 
+if [ -f /path/to/N3HE/bin/thisN3HE.sh ]; then
+        . /path/to/N3HE/bin/thisN3HE.sh
+fi
 
 In that case it would not matter which directory you are doing your analysis, You are free do the analysis from any directory as the library is loaded in the terminal itself.
 
@@ -40,9 +36,9 @@ In that case it would not matter which directory you are doing your analysis, Yo
 " root data_plot_2.C  -l " (without inverted comma)
 
 * 3 windows will pop-up giving the plot of the data in 000 file.
---- One windows giving histogram plotted manually (i.e. filling histogram for each data point)
---- One window giving the same histogram but this time using Ntuple/TTree .
---- Another window giving 1D Ntuple plot of the data
---- The terminal will also print the values for channel one of the ADC.
+- One windows giving histogram plotted manually (i.e. filling histogram for each data point)
+- One window giving the same histogram but this time using Ntuple/TTree .
+- Another window giving 1D Ntuple plot of the data
+- The terminal will also print the values for channel one of the ADC.
 
 
