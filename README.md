@@ -30,8 +30,8 @@ Steps to be followed
 * To Compile:
 From terminal , go to the extracted TBranchBinary Library directory where you have "makefile"
 Then from terminal type"make"
-This will create addition files(Dic and .o files) in */Library/src/libN3HE/ and the libN3HE.so file in */Library/lib/ .
-libN3HE.so is the shared object file that will serve as your library.
+This will create addition files(Dic and .o files) in */Library/src/libN3HE/ and the libN3HE.so file in */Library/lib .
+Then libN3HE.so is the shared object file that will serve as your library.
 
 
 * To load the library source the bin/thisN3HE.sh file before doing analysis (i.e. run `. /path/to/N3HE/bin/thisN3HE.sh`).  It's convenient to put this source command into your ~/.bash_profile or ~/.bashrc file:
