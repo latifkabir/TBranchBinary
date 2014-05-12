@@ -7,6 +7,7 @@ TBranchBinary is a new class developed by Christopher Crawford (now prof of Phys
    * Gives access to all features of TTree.
    * Access to any ROOT classes.
 
+This library is used extensively in the data analysis for [NPDGamma][1] experiment and [n3He][2] experiment at SNS. 
 
 What's included
 ---------------
@@ -47,10 +48,12 @@ In that case it would not matter which directory you are doing your analysis, Yo
 * From a new terminal go to the analysis directory("TBranchBinary/Analysis").and issue the command:
  `root data_plot.C  -l`
 
-* 3 windows will pop-up giving the plot of the data in 000 file.
-- One windows giving histogram plotted manually (i.e. filling histogram for each data point)
-- One window giving the same histogram but this time using Ntuple/TTree .
-- Another window giving 1D Ntuple plot of the data
-- The terminal will also print the values for channel one of the ADC.
+* Three windows will pop-up giving the plot of the data in 000 file.
+  1. One windows giving histogram plotted manually (i.e. filling histogram for each data point)
+  2. One window giving the same histogram but this time using Ntuple/TTree .
+  3. Another window giving 1D Ntuple plot of the data
+  4. The terminal will also print the values for channel one of the ADC.
 
+[1]:http://battlestar.phys.utk.edu/wiki/index.php/Main_Page
+[2]:http://n3he.wikispaces.com/DAQ
 
