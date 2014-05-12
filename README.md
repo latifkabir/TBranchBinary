@@ -31,7 +31,7 @@ Steps to be followed
 From terminal , go to the extracted TBranchBinary Library directory where you have "makefile"
 Then from terminal type"make"
 This will create addition files(Dic and .o files) in */Library/src/libN3HE/ and the libN3HE.so file in */Library/lib/ .
-libN3HE.so is the binary file that will serve as your library.
+libN3HE.so is the shared object file that will serve as your library.
 
 
 * To load the library source the bin/thisN3HE.sh file before doing analysis (i.e. run `. /path/to/N3HE/bin/thisN3HE.sh`).  It's convenient to put this source command into your ~/.bash_profile or ~/.bashrc file:
@@ -55,5 +55,5 @@ In that case it would not matter which directory you are doing your analysis, Yo
   4. The terminal will also print the values for channel one of the ADC.
 
 [1]:http://battlestar.phys.utk.edu/wiki/index.php/Main_Page
-[2]:http://n3he.wikispaces.com/DAQ
+[2]:http://n3he.wikispaces.com
 
